@@ -1,0 +1,6 @@
+themed_fast_404.settings:
+  title: 'Themed fast 404'
+  parent: system.admin_config_system
+  description: 'Themed fast 404 settings page'
+  weight: -10
+  route_name: themed_fast_404.settings

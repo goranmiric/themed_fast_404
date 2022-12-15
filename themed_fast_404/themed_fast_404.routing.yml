@@ -1,0 +1,17 @@
+# Configuration page.
+themed_fast_404.settings:
+  path: '/admin/config/system/themed_fast_404'
+  defaults:
+    _form: '\Drupal\themed_fast_404\Form\SettingsForm'
+    _title: Themed Fast 404 Settings
+  requirements:
+    _permission: 'administer site configuration'
+
+# Drupal 404 page of which will be used to create the static file.
+themed_fast_404.page_not_found:
+  path: '/page-not-found'
+  defaults:
+    _controller: '\Drupal\themed_fast_404\Controller\ThemedFast404Controller::pageNotFound'
+    _title: 'Page not found'
+  requirements:
+    _access: 'TRUE'

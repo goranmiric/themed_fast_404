@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * themed_fast_404.module
+ */
+
+/**
+ * Implements hook_cron().
+ */
+function themed_fast_404_cron() {
+  // Create 404 static page.
+  \Drupal::service('themed_fast_404.manager')->buildStatic404();
+}

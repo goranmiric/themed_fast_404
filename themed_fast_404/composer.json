@@ -1,0 +1,17 @@
+{
+  "name": "drupal/themed_fast_404",
+  "type": "drupal-module",
+  "description": "Creates themed static 404 page and serves it instead of dynamic response.",
+  "license": "GPL-2.0+",
+  "homepage": "http://drupal.org/project/themed_fast_404",
+  "authors": [
+    {
+      "name": "Goran Miric (g_miric)",
+      "homepage": "https://www.drupal.org/u/g_miric",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "http://drupal.org/project/issues/themed_fast_404"
+  }
+}

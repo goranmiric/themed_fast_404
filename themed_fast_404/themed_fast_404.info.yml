@@ -1,0 +1,6 @@
+name: Themed fast 404
+description: Creates themed static 404 page and serves it instead of dynamic response.
+package: Other
+type: module
+configure: themed_fast_404.settings
+core_version_requirement: ^9 || ^10

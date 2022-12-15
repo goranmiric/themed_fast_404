@@ -1,0 +1,6 @@
+services:
+  themed_fast_404.manager:
+    class: Drupal\themed_fast_404\ThemedFast404Manager
+    arguments:
+      - '@file.repository'
+      - '@config.factory'
